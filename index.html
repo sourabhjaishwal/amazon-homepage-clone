@@ -1,55 +1,43 @@
+<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Amazon Clone</title>
+    <title>Amazon Clone - Navbar</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <!-- Header -->
-    <header class="header">
-      <div class="logo">Amazon</div>
-      <div class="search-bar">
+    <!-- Navbar -->
+    <header class="navbar">
+      <div class="nav-logo">amazon</div>
+
+      <div class="nav-address">
+        <p class="small-text">Deliver to</p>
+        <p><strong>Your Location</strong></p>
+      </div>
+
+      <div class="nav-search">
+        <select class="search-category">
+          <option value="all">All</option>
+          <option value="electronics">Electronics</option>
+          <option value="books">Books</option>
+        </select>
         <input type="text" placeholder="Search Amazon" />
         <button>🔍</button>
       </div>
-      <div class="account-cart">
-        <div class="account">Hello, Sign in</div>
-        <div class="cart">🛒 Cart</div>
+
+      <div class="nav-links">
+        <div class="nav-link">
+          <p class="small-text">Hello, sign in</p>
+          <p><strong>Account & Lists</strong></p>
+        </div>
+        <div class="nav-link">
+          <p class="small-text">Returns</p>
+          <p><strong>& Orders</strong></p>
+        </div>
+        <div class="nav-cart">🛒 Cart</div>
       </div>
     </header>
-
-    <!-- Navigation -->
-    <nav class="nav">
-      <a href="#">Today's Deals</a>
-      <a href="#">Customer Service</a>
-      <a href="#">Gift Cards</a>
-      <a href="#">Sell</a>
-    </nav>
-
-    <!-- Hero Section -->
-    <section class="hero">
-      <img src="images/hero-banner.jpg" alt="Promotional Banner" />
-    </section>
-
-    <!-- Product Grid -->
-    <section class="products">
-      <div class="product">
-        <img src="images/product1.jpg" alt="Product 1" />
-        <h3>Product Name</h3>
-        <p>$19.99</p>
-        <p>⭐⭐⭐⭐☆</p>
-      </div>
-      <!-- Repeat for more products -->
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-      <p>© 2025 Amazon Clone</p>
-      <a href="#">Privacy</a>
-      <a href="#">Help</a>
-      <a href="#">Terms</a>
-    </footer>
   </body>
 </html>
