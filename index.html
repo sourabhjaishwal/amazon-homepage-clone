@@ -3,38 +3,53 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Amazon Homepage Clone</title>
+    <title>Amazon Clone</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header class="navbar">
-      <div class="nav-logo">
-        <a href="#"
-          ><img
-            src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg"
-            alt="Amazon Logo"
-        /></a>
-      </div>
-
-      <div class="nav-search">
+    <!-- Header -->
+    <header class="header">
+      <div class="logo">Amazon</div>
+      <div class="search-bar">
         <input type="text" placeholder="Search Amazon" />
-        <button><i class="fas fa-search"></i></button>
+        <button>🔍</button>
       </div>
-
-      <div class="nav-links">
-        <div class="nav-option">
-          <span>Hello, sign in</span>
-          <strong>Account & Lists</strong>
-        </div>
-        <div class="nav-option">
-          <span>Returns</span>
-          <strong>& Orders</strong>
-        </div>
-        <div class="nav-cart">
-          <i class="fas fa-shopping-cart"></i>
-          <span>Cart</span>
-        </div>
+      <div class="account-cart">
+        <div class="account">Hello, Sign in</div>
+        <div class="cart">🛒 Cart</div>
       </div>
     </header>
+
+    <!-- Navigation -->
+    <nav class="nav">
+      <a href="#">Today's Deals</a>
+      <a href="#">Customer Service</a>
+      <a href="#">Gift Cards</a>
+      <a href="#">Sell</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <img src="images/hero-banner.jpg" alt="Promotional Banner" />
+    </section>
+
+    <!-- Product Grid -->
+    <section class="products">
+      <div class="product">
+        <img src="images/product1.jpg" alt="Product 1" />
+        <h3>Product Name</h3>
+        <p>$19.99</p>
+        <p>⭐⭐⭐⭐☆</p>
+      </div>
+      <!-- Repeat for more products -->
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>© 2025 Amazon Clone</p>
+      <a href="#">Privacy</a>
+      <a href="#">Help</a>
+      <a href="#">Terms</a>
+    </footer>
   </body>
 </html>
