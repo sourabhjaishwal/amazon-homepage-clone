@@ -114,3 +114,62 @@
 .nav-search:hover {
     border: 2px solid #febd68;
 }
+
+/* Nav Language Select */
+.nav-language-select {
+    display: flex;
+    /* padding-top: 20px; */
+    padding: 20px 10px 10px 10px;
+}
+
+.flag-icon {
+    width: 20px;
+    height: 15px;
+    background-size: cover;
+}
+
+.select-language {
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 0 3px;
+}
+
+.nav-language-select i {
+    margin-top: 8px;
+    font-size: 0.5rem;
+    color: #cccccc;
+}
+
+/* Nav SignIn */
+.nav-signin,
+.nav-returns {
+    padding: 7px;
+}
+
+.nav-first {
+    font-size: 0.7rem;
+    font-weight: 500;
+}
+
+.nav-signin i {
+    font-size: 0.5rem;
+    color: #cccccc;
+}
+
+.nav-second {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* Nav Cart */
+.nav-cart i {
+    font-size: 25px;
+}
+
+.nav-cart {
+    display: flex;
+    align-items: end;
+    font-size: 0.85rem;
+    font-weight: 700;
+    padding: 7px;
+}
